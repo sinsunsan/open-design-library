@@ -17,20 +17,20 @@ Using a suffix have several advantages :
 
 All layers are printed in black expect 0L-6 that use layer's colors
 
-* OL-1-normal : Normal lines printed (0.15mm) for visible important elements
-* OL-2-thick : Thick lines printed (0.35mm) for cut elements
-* OL-3-thin : Thin lines for less important elements visible in the distance.
-* OL-4-dotted : Dotted thin line printed (0.09mm) for hidden elements
-* OL-5-axis : Axis style lines
-* OL-6-hatch: Hatch that get printed using layer's colors
-* OL-7-text: For text (printed 0.15mm black)
-* OL-8-annotation: For anotation (printed 0.15mm black)
-* OL-9-guide : For guides (don't get printed)
+* **OL-1-normal** : Normal lines printed (0.15mm) for visible important elements
+* **OL-2-thick** : Thick lines printed (0.35mm) for cut elements
+* **OL-3-thin** : Thin lines for less important elements visible in the distance.
+* **OL-4-dotted** : Dotted thin line printed (0.09mm) for hidden elements
+* **OL-5-axis** : Axis style lines
+* **OL-6-hatch**: Hatch that get printed using layer's colors
+* **OL-7-text**: For text (printed 0.15mm black)
+* **OL-8-annotation**: For anotation (printed 0.15mm black)
+* **OL-9-guide** : For guides (don't get printed)
 
 ### Drawings general settings 
 
-* Drawings need to use the STB system (Named styles)
-* Drawings need to be in centimeter using the metric system
+* Drawings need to use the **STB system (Named styles plot styles)**
+* Drawings need to be in **centimeters using the metric system**
 
 ### Print and drawing areas
 
