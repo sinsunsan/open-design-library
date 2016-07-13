@@ -1,5 +1,9 @@
 # Open library Autocad standard
 
+### Autocad version 
+
+* Save the drawing in autocad 2013 format
+
 ### Layers name and content 
 
 #### Ideas behind the normalization choices
@@ -37,3 +41,19 @@ All layers are printed in black expect 0L-6 that use layer's colors
 * The drawing need to be wrapped in a A4 rectangle at its impression size 
 A block is provided for each scale to serve this purpose
 * a print settings need to be settle in the paper space using A4 drawings
+
+### Block definition
+
+####  Insertion point 
+
+* Choose the insertion point of the block wisely in a significative point of the object, by default the top bottom, left corner of the object
+
+####  Block and layer
+
+* The objects in the block should be in 0 layer expect if some elements need to be printed with other layers style. For exemple if a block should be placed in layer OL-1-normal instead of settings elements inside this block to OL-1-normal layer, set them at 0 layer so that changing layer will be easy. 
+
+####  Block naming
+
+* name the block in english so that it is descriptive of the element
+* use dash "-" separator between words
+* suffix the block name by "OL-" that mean Open library and allow to group open library blocks in the list
