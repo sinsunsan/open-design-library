@@ -2,7 +2,14 @@
 
 ### Autocad version 
 
-* Save the drawing in autocad 2013 format
+* Save the drawing in autocad 2010 format for backward compatibility (do not use brand new only autocad features with no backward compatibility).
+
+### OL-drawing-block 
+
+This block has 2 functions : 
+- serve as a drawing block 
+- normalize drawings by importating some definition (layers, text styles) and saved as a dws file be usable to convert layers...
+
 
 ### Layers name and content 
 
